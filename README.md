@@ -7,6 +7,8 @@ The Google Maps Places [API](https://cloud.google.com/maps-platform/places/) ope
 Note that by virtue of the progressive focused radial search, results for the entire radius will be incomplete; complete results will only be returned for a bounding sqaure that fits entirely within the radius. i.e., if you wish to capture all of the places within a X-mile equal sided bounding box with your point at the center, the required radius is equal to (x*sqrt(2))/2 - a  
 5 mile bounding square contained within a circle with a radius of 3.535 
 
+![GIF of Recursion](/example.gif)
+
 ## Install and Use
 
 Clone the directory, navigate to the directory of the .py file via command line, and run the placeextractor.py file - passing it your Google Places API Key, the POI type, location as a single string, and search radius in the same command.<br>
