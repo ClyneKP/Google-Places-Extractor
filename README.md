@@ -7,7 +7,7 @@ The Google Maps Places [API](https://cloud.google.com/maps-platform/places/) ope
 Note that by virtue of the telescoping radial search, results for the entire radius will be incomplete; complete results will only be returned for a bounding sqaure that fits entirely within the radius. i.e., if you wish to capture all of the places within a 5-mile equal sided bounding box with your point at the center, the required radius is equal to 3.535
 The formula for which is: `(x*sqrt(2))/2` where x is the length of one side of the square 
 
-![GIF of Recursion](/example.gif)
+![GIF of Recursion](/example.gif)<br>
 A search of all cafes within ~15 miles of the geographic center of New York City
 
 ## Install and Use
