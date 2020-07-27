@@ -4,8 +4,8 @@ The Google Maps Places [API](https://cloud.google.com/maps-platform/places/) ope
     
 `placeextractor` is a Python script for extracting place data within a given radius of a point. 
 
-Note that by virtue of the progressive focused radial search, results for the entire radius will be incomplete; complete results will only be returned for a bounding sqaure that fits entirely within the radius. i.e., if you wish to capture all of the places within a X-mile equal sided bounding box with your point at the center, the required radius is equal to (x*sqrt(2))/2 - a  
-5 mile bounding square contained within a circle with a radius of 3.535 
+Note that by virtue of the telescoping radial search, results for the entire radius will be incomplete; complete results will only be returned for a bounding sqaure that fits entirely within the radius. i.e., if you wish to capture all of the places within a 5-mile equal sided bounding box with your point at the center, the required radius is equal to 3.535
+The formula for which is: `(x*sqrt(2))/2` where x is the length of one side of the square 
 
 ![GIF of Recursion](/example.gif)
 
