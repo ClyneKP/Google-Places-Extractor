@@ -8,7 +8,7 @@ Note that by virtue of the telescoping radial search, results for the entire rad
 The formula for which is: `(x*sqrt(2))/2` where x is the length of one side of the square 
 
 ![GIF of Recursion](/example.gif)
-#####A search of all cafes within ~15 miles of the geographic center of New York City
+A search of all cafes within ~15 miles of the geographic center of New York City
 
 ## Install and Use
 
