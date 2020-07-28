@@ -11,7 +11,6 @@ import moviepy.editor as mpy
 
 # enter api key 
 api_key = sys.argv[1] 
-#'AIzaSyBk_YJKYU44qS3pfkvrw-jDp_jaleEgb6w'
 
 # Google F&B Type Tags: bakery, bar, cafe, restaurant (meal_takeaway and meal_delivery seem to be subsets of restaurant)
 search_type = "food"
