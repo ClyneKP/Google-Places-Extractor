@@ -157,6 +157,6 @@ estabs.to_csv("NYC_" + search_type + ".csv")
 fps = 65
 gif_name = search_type + '_recursion_' + str(fps) +"fps"
 file_list = glob.glob('*.png') # Get all the pngs in the current directory
-list.sort(file_list, key=lambda x: int(x.split('_')[1].split('.png')[0])) # Sort the images by #, this may need to be tweaked for your use case
+list.sort(file_list, key=lambda x: int(x.split('_')[1].split('.png')[0])) # Sort the images by number.
 clip = mpy.ImageSequenceClip(file_list, fps=fps)
 clip.write_gif('{}.gif'.format(gif_name), fps=fps)
