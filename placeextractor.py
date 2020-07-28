@@ -11,16 +11,16 @@ import moviepy.editor as mpy
 
 # enter api key 
 api_key = sys.argv[1] 
-#'AIzaSyBk_YJKYU44qS3pfkvrw-jDp_jaleEgb6w'
 
 # Google F&B Type Tags: bakery, bar, cafe, restaurant (meal_takeaway and meal_delivery seem to be subsets of restaurant)
-search_type = "food"
+search_type = sys.argv[2]
 
 # The location to search near
-location = "33.834312,-118.315724"
+location = sys.argv[3]
 
 #radius in miles
-radius = 4
+radius = sys.argv[4]
+
 
 # url variable store url 
 url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?type=" + search_type + "&"
